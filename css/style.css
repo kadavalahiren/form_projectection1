@@ -38,6 +38,12 @@ html,body{
     float: right;
     margin: 40px 0px;
 }
+.hor_line{
+    width: 90%;
+    margin: auto;
+    height: 1px;
+    background-color:white;
+}
 .inner{
     width: 90%;
     color: #9a9a9a;
@@ -86,7 +92,7 @@ html,body{
 }
 .line{
     width: 3px;
-    height: 115px;
+    height: 139px;
     background-color: #fff;
     float: left;
 }
@@ -165,7 +171,7 @@ html,body{
 }
 .sec_div_btn{
     width: 200px;
-    height: 50px;
+    height: 55px;
     margin: auto;
 }
 .btn_txt1{
