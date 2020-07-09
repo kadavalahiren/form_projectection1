@@ -1,0 +1,233 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+*{
+    box-sizing:border-box;
+    text-decoration: none;
+}
+.div_first{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+.txt{
+    color: #ffffff;
+    font-size: 16px;
+    padding: 0px 12px;
+}
+.logo{
+    float: left;
+    margin: 40px 0px;
+    
+}
+.menubar{
+    float: right;
+    margin: 40px 0px;
+}
+.inner{
+    width: 90%;
+    color: #9a9a9a;
+    font-size: 16px;
+    margin: 0px 75px;
+    padding: 128px 0px 0px 0px;
+}
+.h1_text{
+    color: #ffffff;
+    margin: 0px 0px 56px;
+    text-align: center;
+    font-size: 56px;
+}
+.icon{
+    width: 100%;
+    margin: 0px 64px 25px 0px;
+    overflow: auto;
+}
+.fas{
+    font-size: 30px;
+    color: #6cc091;
+}
+.icon1{
+    width: 33%;
+    margin: auto;
+    float: left;
+    text-align:center;
+    padding: 0px 96px 0px 0px;
+}
+.h3_ic1{
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+    font-size: 24px;
+    padding: 10px 0px;
+}
+.p_ic1{
+    color: rgba(255,255,255,0.55);
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 0px;
+}
+.ic_div1{
+    margin: auto;
+    float: right;
+}
+.line{
+    width: 3px;
+    height: 115px;
+    background-color: #fff;
+    float: left;
+}
+.icon2{
+    width: 33%;
+    margin: auto;
+    float: left;
+    text-align:center;
+    padding: 0px 96px 0px 96px;
+}
+.ic_div2{
+    margin: auto;
+}
+.icon3{
+    width: 33%;
+    margin: auto;
+    float: left;
+    text-align:center;
+    padding: 0px 0px 0px 96px;
+}
+.ic_div3{
+    margin: auto;
+    float: left;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    margin: 15px auto auto auto;
+}
+.btn{
+    width: 100%;
+    color:#6cc091;
+    padding: 10px 0px;
+    margin: auto;
+    display: inline-block;
+    border: solid 5px #6cc091;
+    text-align: center;
+    border-radius:25px;
+}
+.div_second{
+    width: 100%;
+    margin: auto;
+    padding: 96px 0px;
+}
+.sec{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+.sec_div1{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.sec_div_img1{
+    border-radius: 50%;
+}
+.sec_div_h3{
+    color: #555555;
+    font-size: 28px;
+    margin: 0px 0px 28px 0px;
+}
+.sec_div_p{
+    color: #9A9A9A;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0px 0px 32px 0px;
+}
+.sec_div2{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.sec_div_img2{
+    border-radius: 50%;
+}
+.sec_div_btn{
+    width: 200px;
+    height: 50px;
+    margin: auto;
+}
+.btn_txt1{
+    width: 100%;
+    padding: 10px 0px;
+    border: solid 3px #6cc091;
+    border-radius: 25px;
+    color: #6cc091;
+    display: inline-block;
+}
+.div_third{
+    width: 100%;
+    height: 100%;
+    background-color: #6cc091;
+    padding: 96px 0px;
+}
+.third_div{
+    width: 90%;
+    margin: auto;
+}
+.h3_third_div{
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin: 0px 0px 56px 0px;
+}
+.form{
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+}
+.form_first_half{
+    width: 48%;
+    margin: auto 36px 24px auto;
+    float: left;
+}
+.form_half{
+    width: 48%;
+    float: left;
+}
+label{
+    color: #ffffff;
+    font-size: 15px;
+    display: block;
+    font-weight: 600;
+    margin: 0px 0px 15px 0px;
+}
+#name,#email{
+    width: 100%;
+    height: 45px;
+    padding: 0px 16px;
+    background-color: #6cc091;
+    border-radius: 10px;
+    border: white 1px solid;
+}
+#msg{
+    width: 100%;
+    padding: 0px 16px;
+    background-color: #6cc091;
+    border-radius: 10px;
+    border: white 1px solid; 
+}
+.message{
+   width: 100%;  
+   float: left;
+}
+.form_btn{
+    
+}
