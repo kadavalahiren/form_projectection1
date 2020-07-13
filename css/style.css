@@ -13,7 +13,6 @@ html,body{
 }
 .div_first{
     width: 100%;
-    height: 100%;
     background-image: linear-gradient(to right, rgba(75,75,93,0.85),rgba(75,75,93,0.85)),url(../images/banner.jpg);
     background-position: center;
     background-size: cover;
@@ -28,6 +27,21 @@ html,body{
     color: #ffffff;
     font-size: 16px;
     padding: 0px 12px;
+    font-weight: 600;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+span{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+.txt1{
+    color: #ffffff;
+    font-size: 16px;
+    padding: 0px 12px;
+    font-weight: 400;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 .logo{
     float: left;
@@ -48,19 +62,23 @@ html,body{
     width: 90%;
     color: #9a9a9a;
     font-size: 16px;
-    margin: 0px 75px;
-    padding: 128px 0px 0px 0px;
+    margin: 0px 60px;
+    padding: 128px 0px;
 }
 .h1_text{
     color: #ffffff;
     margin: 0px 0px 56px;
     text-align: center;
     font-size: 56px;
+    font-weight: 100;
+    font-weight: 400;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 .icon{
     width: 100%;
     margin: 0px 64px 25px 0px;
     overflow: auto;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 .fas{
     font-size: 30px;
@@ -79,12 +97,14 @@ html,body{
     margin: 0;
     font-size: 24px;
     padding: 10px 0px;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 .p_ic1{
     color: rgba(255,255,255,0.55);
     font-size: 16px;
     margin: 0;
     padding: 10px 0px;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 .ic_div1{
     margin: auto;
@@ -120,17 +140,19 @@ html,body{
 .button{
     width: 200px;
     height: 50px;
-    margin: 15px auto auto auto;
+    margin: 15px auto 15px auto;
 }
 .btn{
-    width: 100%;
+    width: 90%;
     color:#6cc091;
     padding: 10px 0px;
     margin: auto;
     display: inline-block;
-    border: solid 5px #6cc091;
+    border: solid 3px #6cc091;
     text-align: center;
     border-radius:25px;
+    font-size: 12px;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 .div_second{
     width: 100%;
@@ -154,12 +176,15 @@ html,body{
     color: #555555;
     font-size: 28px;
     margin: 0px 0px 28px 0px;
+    font-weight: 100;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 .sec_div_p{
     color: #9A9A9A;
     font-size: 16px;
     line-height: 23px;
     margin: 0px 0px 32px 0px;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 .sec_div2{
     width: 50%;
@@ -175,12 +200,14 @@ html,body{
     margin: auto;
 }
 .btn_txt1{
-    width: 100%;
+    width: 90%;
     padding: 10px 0px;
     border: solid 3px #6cc091;
     border-radius: 25px;
     color: #6cc091;
+    font-size: 12px;
     display: inline-block;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 .div_third{
     width: 100%;
@@ -196,11 +223,13 @@ html,body{
     color: #fff;
     text-align: center;
     margin: 0px 0px 56px 0px;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 .form{
     width: 100%;
     margin: auto;
     overflow: auto;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 .form_first_half{
     width: 48%;
@@ -225,6 +254,7 @@ label{
     background-color: #6cc091;
     border-radius: 10px;
     border: white 1px solid;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 #msg{
     width: 100%;
@@ -232,6 +262,7 @@ label{
     background-color: #6cc091;
     border-radius: 10px;
     border: white 1px solid; 
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 .message{
    width: 100%;  
@@ -242,8 +273,7 @@ label{
     height: 50px;
     text-align: center;
     display: inline-block;
-    margin-top :15px;
-    margin-bottom: 10px;
+    margin-top: 15px;
 }
 .btn_form{
     width: 200px;
@@ -252,12 +282,19 @@ label{
     border-radius: 25px;
     color: #fff;
     margin: auto;
+    font-size: 12px;
     text-align: center;
     display: inline-block;
 }
 .h2_third{
     color: rgba(255,255,255,0.5);
     font-size: 13px;
-    margin: 0px 0px 25px 0px;
+    padding-top: 20px;
     text-align: center;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+.link{
+    color: rgba(255,255,255,0.5);
+    font-size: 13px;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
